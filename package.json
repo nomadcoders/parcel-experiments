@@ -1,0 +1,21 @@
+{
+  "name": "parcel-experiments",
+  "version": "1.0.0",
+  "description":
+    "Setting up a professional React project with Parcel as a code bundler.",
+  "repository": "https://github.com/nomadcoders/parcel-experiments",
+  "author": "Nicolás Serrano Arévalo <itnico.las.me@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  }
+}
